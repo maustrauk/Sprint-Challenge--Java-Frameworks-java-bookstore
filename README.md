@@ -75,19 +75,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 - [*] When a client tries searching for or updating a book that does not exist, a generic exception is sent back to the client. Change this so our custom exception `ResourceNotFoundException` is returned instead.
 
-- [ ] Add unit test for the Book Service without using the database as test data. The structure is already in place, you need to write the tests for the following:
-  - [ ] findAll
-  - [ ] findBookById that succeeds
-  - [ ] findBookById that fails
-  - [ ] delete
-  - [ ] save a new book
+- [*] Add unit test for the Book Service without using the database as test data. The structure is already in place, you need to write the tests for the following:
+  - [*] findAll
+  - [*] findBookById that succeeds
+  - [*] findBookById that fails
+  - [*] delete
+  - [*] save a new book
 
-- [ ] Add unit tests for the Book Controller NOT relying on the database as test data. The structure is already in place, you need to set up the data and write the tests for the following:
-  - [ ] listAllBooks
-  - [ ] getBookById that succeeds
-  - [ ] getBookById that fails
-  - [ ] addNewBook
-  - [ ] deleteBookById
+- [*] Add unit tests for the Book Controller NOT relying on the database as test data. The structure is already in place, you need to set up the data and write the tests for the following:
+  - [*] listAllBooks
+  - [*] getBookById that succeeds
+  - [*] getBookById that fails
+  - [*] addNewBook
+  - [*] deleteBookById
 
 - [ ] And now that we have a good system, deploy the system to Heroku using PostgreSQL. Your application should be switchable between H2 and PostgreSQL through setting a variable in application.properties
 
