@@ -23,9 +23,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Explain exception handling in your application.
+
+A: There is a custom exception handling integrated in my application. It has own structure that described in CustomErrorDetails class and two special handlers: one is for "when a resource is found but is not suppose to be" and other is for "when a resource is not but is suppose to be".
+
 2. Explain your user authentication flow.
+
+A: In my application I'm using OAuth 2.0 type of authorization. To be able to have access to DB user need to be authorized by sending authorization token, that should be created in my application by using special get method "/login" with headers described in AuthorizationServerConfig class.
+
 3. Explain your unit tests, including how they work and why they are important.
+
+A: I used unit testing to check if my methods in Book Service and Book Controller an existing and working as they should. It will help to report my client what I have done in my application.
+
 4. Explain how you deployed your application to a cloud service with a persistent database.
+
+A: I used heroku deploying service to deploy my application to web-server by using Maven dependencies. I have used PostgreSQL to  operate my DB on cloud source (instead of using H2 DB in development process).
 
 ## Instructions
 
