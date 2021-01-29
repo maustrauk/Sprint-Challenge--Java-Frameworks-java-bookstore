@@ -44,9 +44,9 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 ### Task 2: Project Requirements
 
-- [ ] You will be creating a REST api service to store and read data from a database. You should be able to switch between an H2 database and a PostgreSQL database by using an application.properties setting.
+- [*] You will be creating a REST api service to store and read data from a database. You should be able to switch between an H2 database and a PostgreSQL database by using an application.properties setting.
 
-- [ ] Please fork and clone this repository. This repository does have a starter project. The provided initial application has the basics in place. Note that if you start with the initial project, all the following are done for you!!!
+- [*] Please fork and clone this repository. This repository does have a starter project. The provided initial application has the basics in place. Note that if you start with the initial project, all the following are done for you!!!
 
 - Auditing fields
 - Exception Handling
@@ -60,20 +60,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 - Swagger
 - Unit / Integration testing (at least the POM file entries and general structure)
 - The database is already modeled for you
-- [ ] Do NOT change or delete entries in the POM.XML - Dependencies, plugins, etc. may be added as needed
+- [*] Do NOT change or delete entries in the POM.XML - Dependencies, plugins, etc. may be added as needed
 
 ![Bookstore Database](bookstoredb.png)
 
 - **You are tasked to do the following**
 
-- [ ] Currently, Books are not addressed in security so those routes cannot be accessed. Setup security so that the following access is available:
-  - [ ] GET /books/books - any user with the role ADMIN, USER, or DATA can access
-  - [ ] GET /books/book/{id} - any user with role ADMIN, USER, or DATA can access
-  - [ ] POST /books/book - any user with role ADMIN can access
-  - [ ] PUT /books/book/{id} - any user with role ADMIN can access
-  - [ ] DELETE /books/book/{id} - any user with role ADMIN can access
+- [*] Currently, Books are not addressed in security so those routes cannot be accessed. Setup security so that the following access is available:
+  - [*] GET /books/books - any user with the role ADMIN, USER, or DATA can access
+  - [*] GET /books/book/{id} - any user with role ADMIN, USER, or DATA can access
+  - [*] POST /books/book - any user with role ADMIN can access
+  - [*] PUT /books/book/{id} - any user with role ADMIN can access
+  - [*] DELETE /books/book/{id} - any user with role ADMIN can access
 
-- [ ] When a client tries searching for or updating a book that does not exist, a generic exception is sent back to the client. Change this so our custom exception `ResourceNotFoundException` is returned instead.
+- [*] When a client tries searching for or updating a book that does not exist, a generic exception is sent back to the client. Change this so our custom exception `ResourceNotFoundException` is returned instead.
 
 - [ ] Add unit test for the Book Service without using the database as test data. The structure is already in place, you need to write the tests for the following:
   - [ ] findAll
@@ -93,11 +93,11 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 ### Required best practices
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [*] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [*] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [*] Consistent quotation usage.
+- [*] Spell-check.
+- [*] Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
